@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 400px;
+            margin: 0 auto;
+            background-color: #fff;
+           
+        }
+
+        .form-group {
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+   
+    <form action="#" method="POST">
+        <table>
+            
+            <tr>
+                <td class="form-group">Full Name:</td>
+                <td class="form-group"><input type="text" name="full_name" required></td>
+            </tr>
+            <tr>
+                <td class="form-group">Username:</td>
+                <td class="form-group"><input type="text" name="username" required></td>
+            </tr>
+            <tr>
+                <td class="form-group">Password:</td>
+                <td class="form-group"><input type="password" name="password" required></td>
+            </tr>
+            <tr>
+                <td class="form-group">Re Password:</td>
+                <td class="form-group"><input type="password" name="re_password" required></td>
+            </tr>
+            <tr>
+                <td class="form-group">Address:</td>
+                <td class="form-group"><input type="text" name="address" required></td>
+            </tr>
+            <tr>
+                <td class="form-group">Age:</td>
+                <td class="form-group"><input type="number" name="age" required></td>
+            </tr>
+            <tr>
+                <td class="form-group">Gender:</td>
+                <td class="form-group">
+                    <select name="gender" required>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Save">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

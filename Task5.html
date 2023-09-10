@@ -1,0 +1,133 @@
+<html>
+    <head>
+        <style>
+            
+            body{
+                text-align: center;
+            }
+            #h1{
+                color:blue ;
+            }
+            
+        td{
+          border: 1px solid #080707;
+          width:auto;
+          
+        }
+        .tw{
+            text-align: center;
+            font-weight: bold;
+            
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+           
+        }
+        
+        </style>
+    </head>
+    <body>
+        
+        <h1 id="h1">Registration form</h1>
+        <table>
+            <tr>
+                <td width="40%"class="tw"> First Name</td>
+                <td colspan="3" > <input type="text"  name="first_name" required style="width: 100%"> </td>
+            </tr>
+            <tr>
+                <td class="tw">Last Name</td>
+                <td colspan="3" ><input type="text"  name="last_name" required style="width: 100%"> </td>
+            </tr>
+            <tr>
+                <td class="tw"> Email </td>
+                <td colspan="3"> <input type="text"  name="email" required style="width: 100%"> </td>
+            </tr>
+            <tr>
+                <td class="tw">Password</td>
+                <td colspan="3"><input type="password" name="password" required style="width: 100%"> </td>
+            </tr>
+            <tr>
+                <td class="tw">Re-enter Password</td>
+                <td colspan="3"><input type="re_password" name="re_password" required style="width: 100%"> </td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="tw">Gender: </td>
+                <td colspan="3"><input type='radio' name="gender">Male</td>
+               
+            </tr>
+            
+            <tr>
+                <td colspan="3"><input type='radio' name="gender">Female</td>
+            </tr>
+            <tr>
+                <td class="tw"> Age</td>
+                <td colspan="3" > <input type="text"  name="age" required style="width: 100%"> </td>
+            </tr>
+            <tr>  
+                <td class="tw">Address</td>
+                <td colspan="3"><textarea name="address" id="10" cols="5" rows="5" style="width: 100%"></textarea></td>
+            </tr>
+            <tr>
+                <td class="tw"> State </td>
+                <td colspan="3" > <input type="text"  name="State" required style="width: 100%"> </td>
+            </tr>
+            <tr>
+                <td class="tw">Country</td>
+                <td colspan="3"><select id="country" name="country">
+                    <option value="" disabled selected>Choose your country</option>
+            <option value="usa">United States</option>
+            <option value="canada">Canada</option>
+            <option value="uk">United Kingdom</option>
+            <option value="australia">Australia</option>
+            <option value="india">India</option>
+            <option value="france">France</option>
+            <option value="germany">Germany</option>
+            <option value="japan">Japan</option>
+            <option value="china">China</option>
+            <option value="brazil">Brazil</option>
+            <option value="mexico">Mexico</option>
+            <option value="south-africa">South Africa</option>
+            <option value="egypt">Egypt</option>
+            <option value="russia">Russia</option>
+            <option value="argentina">Argentina</option>
+            <option value="spain">Spain</option>
+            <option value="italy">Italy</option>
+            <option value="canada">Canada</option>
+            <option value="new-zealand">New Zealand</option>
+            <option value="netherlands">Netherlands</option>
+            <option value="switzerland">Switzerland</option>
+            <option value="sweden">Sweden</option>
+            <option value="norway">Norway</option>
+            <option value="denmark">Denmark</option>
+            <option value="finland">Finland</option>
+                </select></td>
+            </tr>
+          <tr>
+            <td class="tw">Languages known</td>
+            <td colspan="2"><input type="checkbox" id="english" name="languages" value="english">English
+                <input type="checkbox" id="kannada" name="languages" value="kannada">Kannada
+                <input type="checkbox" id="hindi" name="languages" value="hindi">Hindi
+                <input type="checkbox" id="telugu" name="languages" value="telugu">Telugu
+            </td>
+          </tr> 
+          <tr>
+            <td colspan="2"><input type="checkbox" id="cb" required>Hereby I declare all the given details are true </td>
+          </tr>
+          <tr>
+            <td colspan="2" align="right">Log in to <a href="https://ethnus.com/" >Ethnus</a> website</td>
+          </tr> 
+        </table>
+        <br>
+        <input type="submit" value="Register">
+    
+    </body>
+
+</html>
